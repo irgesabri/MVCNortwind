@@ -1,0 +1,5 @@
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Bll.dll
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Bll.pdb
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.dll
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.pdb
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\bin\Debug\Northwnd.Entities.dll.config
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\bin\Debug\Northwnd.Entities.dll
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\bin\Debug\Northwnd.Entities.pdb
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.dll
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.xml
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.dll
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.pdb
+c:\users\emi\documents\visual studio 2015\Projects\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.csprojResolveAssemblyReference.cache

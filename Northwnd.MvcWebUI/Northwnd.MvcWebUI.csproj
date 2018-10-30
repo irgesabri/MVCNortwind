@@ -198,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -267,6 +268,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -278,6 +280,20 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Northwnd.Bll\Northwnd.Bll.csproj">
+      <Project>{affa712a-b30a-4720-bd9e-9da7d1872005}</Project>
+      <Name>Northwnd.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwnd.Dal\Northwnd.Dal.csproj">
+      <Project>{e8debda0-4a97-4fdf-add1-74076ce9eb0a}</Project>
+      <Name>Northwnd.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwnd.Entities\Northwnd.Entities.csproj">
+      <Project>{c756e78c-7c5e-4460-884b-5a3aaeec4acb}</Project>
+      <Name>Northwnd.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

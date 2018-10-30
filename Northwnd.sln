@@ -9,33 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwnd.Bll", "Northwnd.Bl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwnd.WcfLibrary", "Northwnd.WcfLibrary\Northwnd.WcfLibrary.csproj", "{12751581-93F0-4562-83B6-2AEC96AE2678}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFService1", "..\..\WebSites\WCFService1\", "{FD36A42A-830B-4F85-BDD2-66E92A749C20}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_2549"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\WCFService1\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2549\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_2549"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\WCFService1\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2549\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "2549"
-		SlnRelativePath = "..\..\WebSites\WCFService1\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwnd.Entities", "Northwnd.Entities\Northwnd.Entities.csproj", "{C756E78C-7C5E-4460-884B-5A3AAEEC4ACB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwnd.MvcWebUI", "Northwnd.MvcWebUI\Northwnd.MvcWebUI.csproj", "{56681136-A44D-4352-9141-A501C4D5E769}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwnd.MvcWebUI.Tests", "Northwnd.MvcWebUI.Tests\Northwnd.MvcWebUI.Tests.csproj", "{0E5933BE-355C-4CDB-8F04-08C72BBF256B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwnd.Interfaces", "Northwnd.Interfaces\Northwnd.Interfaces.csproj", "{CB2D47B4-5466-4CDF-BF50-2C8780BE7A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwnd.WcfIIHost", "Northwnd.WcfIIHost\Northwnd.WcfIIHost.csproj", "{490E1797-014A-4042-97F3-CB40984C57DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +37,6 @@ Global
 		{12751581-93F0-4562-83B6-2AEC96AE2678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12751581-93F0-4562-83B6-2AEC96AE2678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12751581-93F0-4562-83B6-2AEC96AE2678}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD36A42A-830B-4F85-BDD2-66E92A749C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD36A42A-830B-4F85-BDD2-66E92A749C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD36A42A-830B-4F85-BDD2-66E92A749C20}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD36A42A-830B-4F85-BDD2-66E92A749C20}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{C756E78C-7C5E-4460-884B-5A3AAEEC4ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C756E78C-7C5E-4460-884B-5A3AAEEC4ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C756E78C-7C5E-4460-884B-5A3AAEEC4ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,6 +49,14 @@ Global
 		{0E5933BE-355C-4CDB-8F04-08C72BBF256B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E5933BE-355C-4CDB-8F04-08C72BBF256B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E5933BE-355C-4CDB-8F04-08C72BBF256B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2D47B4-5466-4CDF-BF50-2C8780BE7A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2D47B4-5466-4CDF-BF50-2C8780BE7A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2D47B4-5466-4CDF-BF50-2C8780BE7A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2D47B4-5466-4CDF-BF50-2C8780BE7A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490E1797-014A-4042-97F3-CB40984C57DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490E1797-014A-4042-97F3-CB40984C57DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490E1797-014A-4042-97F3-CB40984C57DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490E1797-014A-4042-97F3-CB40984C57DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

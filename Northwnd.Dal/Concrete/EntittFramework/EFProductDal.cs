@@ -14,20 +14,34 @@ namespace Northwnd.Dal.Concrete.EntittFramework
 
         public void Add(Products product)
         {
-            throw new NotImplementedException();
+            _context.Products.Add(product);
+            _context.SaveChanges();
+
         }
-        public void Delete(Products product)
+        public void Delete(int productId)
         {
-            throw new NotImplementedException();
+            var delete = _context.Products.FirstOrDefault(x=>x.ProductID==productId);
+            _context.Products.Remove(delete);
+            _context.SaveChanges();
+
         }
         public Products Get(int productId)
         {
-            throw new NotImplementedException();
+            return _context.Products.FirstOrDefault(x=>x.ProductID==productId);
         }
 
         public void Update(Products product)
         {
-            throw new NotImplementedException();
+            var updated = _context.Products.FirstOrDefault(x => x.ProductID == product.ProductID);
+            updated.ProductName = product.ProductName;
+            updated.CategoryID = product.CategoryID;
+            updated.Discontinued = product.Discontinued;
+            updated.QuantityPerUnit = product.QuantityPerUnit;
+            updated.SupplierID = product.SupplierID;
+            updated.UnitsInStock = product.UnitsInStock;
+            updated.UnitsOnOrder = product.UnitsOnOrder;
+            _context.SaveChanges();
+
         }
 
         List<Products> IProductDal.GetAll()

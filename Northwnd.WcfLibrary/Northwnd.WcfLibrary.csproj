@@ -45,10 +45,29 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Northwnd.Bll\Northwnd.Bll.csproj">
+      <Project>{affa712a-b30a-4720-bd9e-9da7d1872005}</Project>
+      <Name>Northwnd.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwnd.Dal\Northwnd.Dal.csproj">
+      <Project>{e8debda0-4a97-4fdf-add1-74076ce9eb0a}</Project>
+      <Name>Northwnd.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwnd.Entities\Northwnd.Entities.csproj">
+      <Project>{c756e78c-7c5e-4460-884b-5a3aaeec4acb}</Project>
+      <Name>Northwnd.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Northwnd.Interfaces\Northwnd.Interfaces.csproj">
+      <Project>{cb2d47b4-5466-4cdf-bf50-2c8780be7a23}</Project>
+      <Name>Northwnd.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

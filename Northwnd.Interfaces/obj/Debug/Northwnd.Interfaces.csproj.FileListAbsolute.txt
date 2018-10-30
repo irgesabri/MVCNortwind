@@ -1,0 +1,9 @@
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\bin\Debug\Northwnd.Interfaces.dll
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\bin\Debug\Northwnd.Interfaces.pdb
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\bin\Debug\Northwnd.Entities.dll
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\bin\Debug\Northwnd.Entities.pdb
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\obj\Debug\Northwnd.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\obj\Debug\Northwnd.Interfaces.dll
+C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Interfaces\obj\Debug\Northwnd.Interfaces.pdb

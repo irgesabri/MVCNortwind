@@ -29,3 +29,34 @@ C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfIIHost\b
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfIIHost\obj\Debug\Northwnd.WcfIIHost.csprojResolveAssemblyReference.cache
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfIIHost\obj\Debug\Northwnd.WcfIIHost.dll
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfIIHost\obj\Debug\Northwnd.WcfIIHost.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\ApplicationInsights.config
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.WcfIIHost.dll.config
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.WcfIIHost.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.WcfIIHost.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.DependencyCollector.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.Web.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.WindowsServer.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.ApplicationInsights.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.WcfLibrary.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Interfaces.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Bll.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Entities.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Dal.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\EntityFramework.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.WcfLibrary.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.DependencyCollector.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.Web.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.AI.WindowsServer.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Microsoft.ApplicationInsights.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Interfaces.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Bll.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Entities.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\Northwnd.Dal.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\bin\EntityFramework.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\obj\Debug\Northwnd.WcfIIHost.csprojResolveAssemblyReference.cache
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\obj\Debug\Northwnd.WcfIIHost.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfIIHost\obj\Debug\Northwnd.WcfIIHost.pdb

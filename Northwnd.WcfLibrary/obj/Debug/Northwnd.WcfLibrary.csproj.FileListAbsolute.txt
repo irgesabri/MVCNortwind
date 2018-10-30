@@ -14,3 +14,19 @@ C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfLibrary\
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfLibrary\obj\Debug\Northwnd.WcfLibrary.csprojResolveAssemblyReference.cache
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfLibrary\obj\Debug\Northwnd.WcfLibrary.dll
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.WcfLibrary\obj\Debug\Northwnd.WcfLibrary.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.WcfLibrary.dll.config
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.WcfLibrary.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.WcfLibrary.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Bll.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Dal.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Entities.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Interfaces.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\EntityFramework.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Bll.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Dal.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Entities.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\Northwnd.Interfaces.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\bin\Debug\EntityFramework.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\obj\Debug\Northwnd.WcfLibrary.csprojResolveAssemblyReference.cache
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\obj\Debug\Northwnd.WcfLibrary.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.WcfLibrary\obj\Debug\Northwnd.WcfLibrary.pdb

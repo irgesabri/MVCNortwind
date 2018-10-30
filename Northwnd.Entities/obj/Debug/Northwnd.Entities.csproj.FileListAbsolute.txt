@@ -8,3 +8,13 @@ C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Entities\bi
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.csprojResolveAssemblyReference.cache
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.dll
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\Northwnd.Entities.dll.config
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\Northwnd.Entities.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\Northwnd.Entities.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.csprojResolveAssemblyReference.cache
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.pdb

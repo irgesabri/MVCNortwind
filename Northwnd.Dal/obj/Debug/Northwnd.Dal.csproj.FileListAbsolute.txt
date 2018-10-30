@@ -10,3 +10,15 @@ C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Dal\bin\Deb
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Dal\obj\Debug\Northwnd.Dal.csprojResolveAssemblyReference.cache
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Dal\obj\Debug\Northwnd.Dal.dll
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Dal\obj\Debug\Northwnd.Dal.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\Northwnd.Dal.dll.config
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\Northwnd.Dal.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\Northwnd.Dal.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\EntityFramework.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\Northwnd.Entities.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\Northwnd.Entities.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\EntityFramework.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\obj\Debug\Northwnd.Dal.csprojResolveAssemblyReference.cache
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\obj\Debug\Northwnd.Dal.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Dal\obj\Debug\Northwnd.Dal.pdb

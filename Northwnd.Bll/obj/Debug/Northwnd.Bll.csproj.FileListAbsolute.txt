@@ -11,3 +11,16 @@ C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Bll\bin\Deb
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.csprojResolveAssemblyReference.cache
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.dll
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Bll.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Bll.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Dal.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Entities.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Interfaces.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\EntityFramework.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Dal.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Entities.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\Northwnd.Interfaces.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\bin\Debug\EntityFramework.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.csprojResolveAssemblyReference.cache
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.Bll\obj\Debug\Northwnd.Bll.pdb

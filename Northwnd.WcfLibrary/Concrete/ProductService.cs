@@ -14,7 +14,7 @@ namespace Northwnd.WcfLibrary.Concrete
     {
         //instance provider ile ezilecek.
         ProductManager _productManager = new ProductManager(new EFProductDal());
-        public void Add(Products product)
+        public void Add(Product product)
         {
             _productManager.Add(product);
         }
@@ -24,17 +24,17 @@ namespace Northwnd.WcfLibrary.Concrete
             _productManager.Delete(productId);
         }
 
-        public Products Get(int productId)
+        public Product Get(int productId)
         {
             return _productManager.Get(productId);
         }
 
-        public List<Products> GetAll()
+        public List<Product> GetAll()
         {
             return _productManager.GetAll();
         }
 
-        public void Update(Products product)
+        public void Update(Product product)
         {
             _productManager.Update(product);
         }

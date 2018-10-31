@@ -12,7 +12,6 @@ using Northwnd.MvcWebUI.Models;
 
 namespace Northwnd.MvcWebUI.Controllers
 {
-    [Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;

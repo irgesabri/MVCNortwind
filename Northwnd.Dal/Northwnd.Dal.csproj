@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Concrete\EntittFramework\EFProductDal.cs" />
+    <Compile Include="Concrete\EntittFramework\NORTHWNDEntities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

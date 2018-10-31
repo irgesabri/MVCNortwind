@@ -1,4 +1,4 @@
-﻿@model System.Collections.Generic.List<Northwnd.Entities.Products>
+﻿@model System.Collections.Generic.List<Northwnd.Entities.Product>
 @{
     Layout = null;
 }
@@ -14,7 +14,7 @@
     <div> 
         @foreach (var item in Model)
         {
-            @item.ProductName;
+            @item.ProductName
             <br />
         }
     </div>

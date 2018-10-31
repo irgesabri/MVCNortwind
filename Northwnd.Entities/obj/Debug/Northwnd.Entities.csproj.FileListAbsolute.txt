@@ -15,6 +15,5 @@ D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.SqlServer.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.Entities\bin\Debug\EntityFramework.SqlServer.xml
-D:\MVCnorthwnd\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.csprojResolveAssemblyReference.cache
 D:\MVCnorthwnd\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.Entities\obj\Debug\Northwnd.Entities.pdb

@@ -12,13 +12,13 @@ namespace Northwnd.Interfaces
     public interface IProductService
     {
         [OperationContract]
-        List<Products> GetAll();
+        List<Product> GetAll();
         [OperationContract]
-        Products Get(int productId);
-        void Add(Products product);
+        Product Get(int productId);
+        void Add(Product product);
         [OperationContract]
         void Delete(int productId);
         [OperationContract]
-        void Update(Products product);
+        void Update(Product product);
     }
 }

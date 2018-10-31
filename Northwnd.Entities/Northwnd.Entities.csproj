@@ -51,60 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Categories.cs">
-      <DependentUpon>NorthwndModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Customers.cs">
-      <DependentUpon>NorthwndModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="NorthwndModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwndModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="NorthwndModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwndModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="NorthwndModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwndModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Orders.cs">
-      <DependentUpon>NorthwndModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Products.cs">
-      <DependentUpon>NorthwndModel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Category.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="NorthwndModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>NorthwndModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="NorthwndModel.edmx.diagram">
-      <DependentUpon>NorthwndModel.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="NorthwndModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>NorthwndModel.edmx</DependentUpon>
-      <LastGenOutput>NorthwndModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="NorthwndModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>NorthwndModel.edmx</DependentUpon>
-      <LastGenOutput>NorthwndModel.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -15,7 +15,7 @@ namespace Northwnd.MvcWebUI.Controllers
         // GET: Product
         public ActionResult Index()
         {
-            List<Products> products = _productManager.GetAll();
+            List<Product> products = _productManager.GetAll();
             return View(products);
         }
     }

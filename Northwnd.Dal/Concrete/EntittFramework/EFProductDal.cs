@@ -12,7 +12,7 @@ namespace Northwnd.Dal.Concrete.EntittFramework
     {
         NORTHWNDEntities _context = new NORTHWNDEntities();
 
-        public void Add(Products product)
+        public void Add(Product product)
         {
             _context.Products.Add(product);
             _context.SaveChanges();
@@ -25,12 +25,12 @@ namespace Northwnd.Dal.Concrete.EntittFramework
             _context.SaveChanges();
 
         }
-        public Products Get(int productId)
+        public Product Get(int productId)
         {
             return _context.Products.FirstOrDefault(x=>x.ProductID==productId);
         }
 
-        public void Update(Products product)
+        public void Update(Product product)
         {
             var updated = _context.Products.FirstOrDefault(x => x.ProductID == product.ProductID);
             updated.ProductName = product.ProductName;
@@ -44,7 +44,7 @@ namespace Northwnd.Dal.Concrete.EntittFramework
 
         }
 
-        List<Products> IProductDal.GetAll()
+        List<Product> IProductDal.GetAll()
         {
             return _context.Products.ToList();
         }

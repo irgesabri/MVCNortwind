@@ -17,7 +17,7 @@ namespace Northwnd.Bll.Concrete
         {
             _productDal = productDal;
         }
-        public void Add(Products product)
+        public void Add(Product product)
         {
             _productDal.Add(product);
         }
@@ -27,17 +27,17 @@ namespace Northwnd.Bll.Concrete
             _productDal.Delete(productId);
         }
 
-        public Products Get(int productId)
+        public Product Get(int productId)
         {
             return _productDal.Get(productId);
         }
 
-        public List<Products> GetAll()
+        public List<Product> GetAll()
         {
             return _productDal.GetAll();
         }
 
-        public void Update(Products product)
+        public void Update(Product product)
         {
             _productDal.Update(product);
         }

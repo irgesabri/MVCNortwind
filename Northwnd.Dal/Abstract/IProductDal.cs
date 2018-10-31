@@ -9,10 +9,10 @@ namespace Northwnd.Dal.Abstract
 {
     public interface IProductDal
     {
-        List<Products> GetAll();
-        Products Get(int productId);
-        void Add(Products product);
+        List<Product> GetAll();
+        Product Get(int productId);
+        void Add(Product product);
         void Delete(int productId);
-        void Update(Products product);
+        void Update(Product product);
     }
 }

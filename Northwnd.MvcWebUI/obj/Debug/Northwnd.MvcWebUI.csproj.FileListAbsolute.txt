@@ -178,3 +178,5 @@ D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Interfaces.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.csprojResolveAssemblyReference.cache
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Ninject.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Ninject.xml

@@ -16,7 +16,6 @@ namespace Northwnd.Dal.Concrete.EntittFramework
         {
             _context.Products.Add(product);
             _context.SaveChanges();
-
         }
         public void Delete(int productId)
         {
@@ -41,9 +40,7 @@ namespace Northwnd.Dal.Concrete.EntittFramework
             updated.UnitsInStock = product.UnitsInStock;
             updated.UnitsOnOrder = product.UnitsOnOrder;
             _context.SaveChanges();
-
         }
-
         List<Product> IProductDal.GetAll()
         {
             return _context.Products.ToList();

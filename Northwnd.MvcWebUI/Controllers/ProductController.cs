@@ -2,6 +2,7 @@
 using Northwnd.Dal.Concrete.EntittFramework;
 using Northwnd.Entities;
 using Northwnd.Interfaces;
+using Northwnd.MvcWebUI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,11 +19,22 @@ namespace Northwnd.MvcWebUI.Controllers
         {
             _productservice = productservice;
         }
+        public int PageSize = 5;
+
         // GET: Product
-        public ActionResult Index()
+        public ActionResult Index(int page = 1)
         {
             List<Product> products = _productservice.GetAll();
-            return View(products);
+            return View(new ProductViewModel
+            {
+                Product = products.Skip((page - 1) * PageSize).Take(5).ToList(),
+                PageInfo = new PageInfo
+                {
+                    ItemsPerPage = PageSize,
+                    TotalItems = products.Count,
+                    CurrrentPage = page
+                }
+            });
         }
     }
 }

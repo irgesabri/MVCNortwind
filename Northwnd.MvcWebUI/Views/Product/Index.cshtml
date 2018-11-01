@@ -1,13 +1,21 @@
-﻿@model System.Collections.Generic.List<Northwnd.Entities.Product>
+﻿@model Northwnd.MvcWebUI.Models.ProductViewModel
 @{
-//Layout = null;
 }
 
 <div>
-    @foreach (var item in Model)
-    {
-        @item.ProductName
-        <br />
-    }
+    <div>
+        @foreach (var item in Model.Product)
+        {
+            <div class="list-group-item">
+                <h4>@item.ProductName</h4>
+                <h6>@item.UnitPrice <b>TL</b></h6>
+            </div>
+        }
+    </div>
+
+
+        <ul class="pagination pagination-lg">
+            <li class="page-item"> <a href="">@Html.Pager(Model.PageInfo)</a></li>
+        </ul>
 </div>
 

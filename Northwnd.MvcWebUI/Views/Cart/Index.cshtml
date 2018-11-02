@@ -1,0 +1,33 @@
+﻿@model Northwnd.Entities.Cart
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Products In the Cart</h2>
+<div class="container">
+    <div class="row">     
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <td>Product Name</td>
+                    <td>Unit Price</td>
+                    <td>Quantity</td>
+                    <td>Total Price</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Lines)
+                {
+                    <tr>
+                        <td>@item.Product.ProductName</td>
+                        <td>@(item.Product.UnitPrice.ToString())</td>
+                        <td>@item.quantity</td>
+                        <td>@((item.quantity*item.Product.UnitPrice).ToString())</td>
+                        <td><input type="button" value="Sil" class="btn btn-danger"/></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

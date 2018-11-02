@@ -22,9 +22,9 @@ namespace Northwnd.MvcWebUI.Controllers
         public int PageSize = 5;
 
         // GET: Product
-        public ActionResult Index(int page = 1)
+        public ActionResult Index(int page = 1,int category=0)
         {
-            List<Product> products = _productservice.GetAll();
+            List<Product> products = _productservice.GetAll().Where(x=>x.CategoryID==category ||category==0).ToList();
             return View(new ProductViewModel
             {
                 Product = products.Skip((page - 1) * PageSize).Take(5).ToList(),
@@ -32,7 +32,8 @@ namespace Northwnd.MvcWebUI.Controllers
                 {
                     ItemsPerPage = PageSize,
                     TotalItems = products.Count,
-                    CurrrentPage = page
+                    CurrrentPage = page,
+                    CurrentCategory=category
                 }
             });
         }

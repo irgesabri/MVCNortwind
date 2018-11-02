@@ -1,0 +1,20 @@
+﻿@model List<Northwnd.Entities.Category>
+<li class="list-group-item">
+    @Html.RouteLink("Anasayfa", new { controller = "Product", action = "Index", category = 0 },new { @class = ViewBag.CurrentCategory == 0 ? "selected" : null })
+</li>
+@foreach (var item in Model)
+{
+
+    <li class="list-group-item">
+        @Html.RouteLink(item.CategoryName, new
+   {
+       category = item.CategoryID,
+       controller = "Product",
+       action = "Index"
+   },
+   new {@class=item.CategoryID==ViewBag.CurrentCategory?"selected":null}
+
+   )
+    </li>
+
+}

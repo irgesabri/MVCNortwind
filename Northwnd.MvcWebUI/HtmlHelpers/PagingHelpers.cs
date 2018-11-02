@@ -17,7 +17,7 @@ namespace Northwnd.MvcWebUI.HtmlHelpers
             for (int i = 1; i <= totalPage; i++)
             {
                  var tagBuilder = new TagBuilder("a");
-                tagBuilder.MergeAttribute("href", String.Format("/Product/Index/?page={0}", i));
+                tagBuilder.MergeAttribute("href", String.Format("/Product/Index/?page={0}&category={1}", i,pageinfo.CurrentCategory));
                 tagBuilder.InnerHtml = i.ToString();
                 if (pageinfo.CurrrentPage==i)
                 {

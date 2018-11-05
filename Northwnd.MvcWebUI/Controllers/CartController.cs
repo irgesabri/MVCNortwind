@@ -27,7 +27,49 @@ namespace Northwnd.MvcWebUI.Controllers
             }
 
             cart.AddToCart(product, 1);
-            return View("Index",cart);
+            return View("Index", cart);
         }
+        public RedirectToRouteResult RemoveFromCart(int productId)
+        {
+            Product product = _productService.Get(productId);
+            var cart = (Cart)Session["cart"];
+            //if (cart.Lines.Count == 0)
+            //{
+            //    ModelState.AddModelError("", "Sepette Ürün Yok");
+            //}
+            //else
+            //{
+            //    cart.RemoveFromCart(product);
+            //}
+
+            return RedirectToAction("Index", cart);
+        }
+        public ActionResult Index()
+        {
+            var cart = (Cart)Session["cart"];
+            return View(cart);
+        }
+        public ActionResult Checkout()
+        {
+            return View(new ShippingDetails());
+        }
+        [HttpPost]
+        public ActionResult Checkout(ShippingDetails shippindetail)
+        {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Completed");
+            }
+            else
+            {
+                return View(shippindetail);
+            }
+
+        }
+        public ActionResult Completed()
+        {
+            return View();
+        }
+
     }
 }

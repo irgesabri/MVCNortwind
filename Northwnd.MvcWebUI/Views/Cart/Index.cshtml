@@ -23,11 +23,22 @@
                         <td>@(item.Product.UnitPrice.ToString())</td>
                         <td>@item.quantity</td>
                         <td>@((item.quantity*item.Product.UnitPrice).ToString())</td>
-                        <td><input type="button" value="Sil" class="btn btn-danger"/></td>
+                        <td>
+                            @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                            {
+                                @Html.Hidden("productId",item.Product.ProductID)
+                                <input type="submit" value="Sil" class="btn btn-danger" />
+                            }
+                        </td>
                     </tr>
                 }
             </tbody>
         </table>
+        <p>
+            <a href="/Product/Index" class="btn btn-primary">Anasayfa</a>
+            <a href="/Cart/Checkout" class="btn btn-primary">Ödeme Adımı</a>
+            
+        </p>
     </div>
 </div>
 

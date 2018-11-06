@@ -1,4 +1,6 @@
-﻿using Northwnd.MvcWebUI.Infrastructure;
+﻿using Northwnd.Entities;
+using Northwnd.MvcWebUI.Infrastructure;
+using Northwnd.MvcWebUI.ModelBinders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +20,7 @@ namespace Northwnd.MvcWebUI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
+            System.Web.Mvc.ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
         }
     }
 }

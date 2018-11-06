@@ -16,37 +16,38 @@ namespace Northwnd.MvcWebUI.Controllers
             _productService = productService;
         }
         // GET: Cart
-        public ActionResult AddToCart(int productId)
+        public ActionResult AddToCart(Cart cart, int productId)
         {
+            //paremtre ekle yukarıya Cart cart
             Product product = _productService.Get(productId);
-            var cart = (Cart)Session["cart"];
-            if (cart == null)
-            {
-                cart = new Cart();
-                Session["cart"] = cart;
-            }
+            //var cart = (Cart)Session["cart"];
+            //if (cart == null)
+            //{
+            //    cart = new Cart();
+            //    Session["cart"] = cart;
+            //}
 
             cart.AddToCart(product, 1);
             return View("Index", cart);
         }
-        public RedirectToRouteResult RemoveFromCart(int productId)
+        public RedirectToRouteResult RemoveFromCart(Cart cart, int productId)
         {
             Product product = _productService.Get(productId);
-            var cart = (Cart)Session["cart"];
+            //var cart = (Cart)Session["cart"];
             //if (cart.Lines.Count == 0)
             //{
             //    ModelState.AddModelError("", "Sepette Ürün Yok");
             //}
             //else
             //{
-            //    cart.RemoveFromCart(product);
+            //    
             //}
-
+            cart.RemoveFromCart(product);
             return RedirectToAction("Index", cart);
         }
-        public ActionResult Index()
+        public ActionResult Index(Cart cart)
         {
-            var cart = (Cart)Session["cart"];
+            //var cart = (Cart)Session["cart"];
             return View(cart);
         }
         public ActionResult Checkout()
@@ -70,6 +71,16 @@ namespace Northwnd.MvcWebUI.Controllers
         {
             return View();
         }
+        public PartialViewResult CartSummary(Cart cart)
+        {
+            //var cart = (Cart)Session["cart"];
+            //if (cart == null)
+            //{
+            //    cart = new Cart();
+            //}
+            return PartialView(cart);
+        }
+
 
     }
 }

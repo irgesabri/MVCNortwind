@@ -49,8 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAuthenticationDal.cs" />
     <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Concrete\EntittFramework\EFAuthenticationDal.cs" />
     <Compile Include="Concrete\EntittFramework\EFCategoryDal.cs" />
     <Compile Include="Concrete\EntittFramework\EFProductDal.cs" />
     <Compile Include="Concrete\EntittFramework\NORTHWNDEntities.cs" />

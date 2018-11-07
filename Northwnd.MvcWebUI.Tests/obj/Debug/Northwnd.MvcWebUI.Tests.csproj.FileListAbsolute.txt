@@ -63,6 +63,7 @@ C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI.Te
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI.Tests\obj\Debug\Northwnd.MvcWebUI.Tests.csprojResolveAssemblyReference.cache
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI.Tests\obj\Debug\Northwnd.MvcWebUI.Tests.dll
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI.Tests\obj\Debug\Northwnd.MvcWebUI.Tests.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\obj\Debug\Northwnd.MvcWebUI.Tests.csprojResolveAssemblyReference.cache
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\ApplicationInsights.config
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\roslyn\csc.exe
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -97,12 +98,12 @@ D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.Owin.Securit
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Owin.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Bll.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Entities.dll
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\EntityFramework.dll
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Ninject.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Dal.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Interfaces.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\EntityFramework.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Bll.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.MvcWebUI.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Newtonsoft.Json.xml
@@ -119,14 +120,11 @@ D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.AspNet.Ident
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.Owin.Security.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Bll.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Entities.pdb
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\EntityFramework.xml
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Ninject.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Dal.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Interfaces.pdb
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\obj\Debug\Northwnd.MvcWebUI.Tests.csprojResolveAssemblyReference.cache
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\EntityFramework.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Northwnd.Bll.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\obj\Debug\Northwnd.MvcWebUI.Tests.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\obj\Debug\Northwnd.MvcWebUI.Tests.pdb
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Ninject.dll
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI.Tests\bin\Debug\Ninject.xml

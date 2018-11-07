@@ -28,6 +28,7 @@ namespace Northwnd.MvcWebUI.Infrastructure
             //birisi senden Iproductservice isterse sen ona ProductManager ı ver.
 
             _ninjectKernel.Bind<ICategoryService>().To<CategoryManager>().WithConstructorArgument("categoryDal", new EFCategoryDal());
+            _ninjectKernel.Bind<IAuthenticationService>().To<AuthenticationManager>().WithConstructorArgument("authenticationDal", new EFAuthenticationDal());
         }
 
         protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)

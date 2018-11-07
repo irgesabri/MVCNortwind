@@ -88,6 +88,7 @@ C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI\bi
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.csprojResolveAssemblyReference.cache
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.dll
 C:\Users\emi\Documents\Visual Studio 2015\Projects\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.csprojResolveAssemblyReference.cache
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\ApplicationInsights.config
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\roslyn\csc.exe
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -129,9 +130,11 @@ D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.Owin.Security.OAuth.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.Owin.Security.Twitter.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.Web.Infrastructure.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Newtonsoft.Json.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Ninject.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Bll.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Dal.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Entities.dll
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Interfaces.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Owin.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.Helpers.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.Mvc.dll
@@ -141,16 +144,17 @@ D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.WebPages.Deployment.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.WebPages.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.WebPages.Razor.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\WebGrease.dll
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Interfaces.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Bll.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Dal.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Entities.pdb
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Interfaces.pdb
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.AI.DependencyCollector.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.AI.Web.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.AI.WindowsServer.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.ApplicationInsights.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Ninject.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.Helpers.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.Mvc.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\System.Web.Optimization.xml
@@ -174,9 +178,5 @@ D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.Owin.Security.OAuth.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.Owin.Security.Google.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.Owin.Security.Twitter.xml
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Northwnd.Interfaces.pdb
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.csprojResolveAssemblyReference.cache
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.dll
 D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\obj\Debug\Northwnd.MvcWebUI.pdb
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Ninject.dll
-D:\MVCnorthwnd\Northwnd\Northwnd.MvcWebUI\bin\Ninject.xml

@@ -11,7 +11,7 @@ namespace Northwnd.Bll.Concrete
 {
     public class AuthenticationManager : IAuthenticationService
     {
-        IAuthenticationDal _aututhenticationDal;
+        private IAuthenticationDal _aututhenticationDal;
         public AuthenticationManager(IAuthenticationDal aututhenticationDal)
         {
             _aututhenticationDal = aututhenticationDal;

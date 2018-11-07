@@ -63,6 +63,10 @@
       <Project>{c756e78c-7c5e-4460-884b-5a3aaeec4acb}</Project>
       <Name>Northwnd.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Northwnd.Interfaces\Northwnd.Interfaces.csproj">
+      <Project>{CB2D47B4-5466-4CDF-BF50-2C8780BE7A23}</Project>
+      <Name>Northwnd.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

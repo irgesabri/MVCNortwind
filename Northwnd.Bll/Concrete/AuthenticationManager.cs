@@ -11,14 +11,14 @@ namespace Northwnd.Bll.Concrete
 {
     public class AuthenticationManager : IAuthenticationService
     {
-        private IAuthenticationDal _aututhenticationDal;
-        public AuthenticationManager(IAuthenticationDal aututhenticationDal)
+        private IAuthenticationDal _authenticationDal;
+        public AuthenticationManager(IAuthenticationDal authenticationDal)
         {
-            _aututhenticationDal = aututhenticationDal;
+            _authenticationDal = authenticationDal;
         }
         public User Authenticate(User user)
         {
-            return _aututhenticationDal.Authenticate(user);
+            return _authenticationDal.Authenticate(user);
         }
     }
 }

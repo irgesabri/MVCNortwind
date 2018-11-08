@@ -1,29 +1,44 @@
-﻿using Northwnd.Entities;
+﻿using Northwnd.Bll.Concrete;
+using Northwnd.Entities;
 using Northwnd.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace Northwnd.MvcWebUI.Controllers
 {
     public class AccountController : Controller
     {
-        IAuthenticationService _authenticationService;
-        public AccountController(IAuthenticationService authenticationService)
+        AuthenticationManager _authenticationManager;
+        public AccountController(AuthenticationManager authenticationManager)
         {
-            _authenticationService = authenticationService;
+            _authenticationManager = authenticationManager;
         }
         // GET: Account
         public ActionResult Login()
         {
-            return View();
+            return View(new User());
         }
         [HttpPost]
-        public ActionResult Login(User user)
+        public ActionResult Login(User user,string returnurl)
         {
-            return View(_authenticationService.Authenticate(user));
+            if (ModelState.IsValid)
+            {
+                User validateuser = _authenticationManager.Authenticate(user);
+                if (validateuser!=null)
+                {
+                    FormsAuthentication.SetAuthCookie(user.UserName, false);
+                    return Redirect(returnurl);
+                }
+            }
+            else
+            {
+                ModelState.AddModelError("Hata", "Kullanıcı adı veya şifresi hatalı");
+            }
+            return View();
         }
     }
 }
